@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 import "../assets/styles.css";
 
 
-const Carousel = ({ searchHistory }) => {
+export function Carousel({ searchHistory }) {
   return (
     <div className="carousel-container">
       <h2 className="carousel-title">Historial de Búsquedas</h2>
@@ -44,4 +44,4 @@ const Carousel = ({ searchHistory }) => {
   );
 };
 
-export default Carousel;
+

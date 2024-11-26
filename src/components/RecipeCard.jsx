@@ -1,5 +1,6 @@
 import React from "react";
-const RecipeCard = ({ recipe }) => {
+
+export function RecipeCard({ recipe }) {
     const {
         idMeal,
         strMeal,
@@ -22,5 +23,3 @@ const RecipeCard = ({ recipe }) => {
         </div>
     )
 };
-
-export default RecipeCard;
